@@ -53,7 +53,7 @@ The generated plot is saved as `data_plot.png`.
 
 2. Install required Python packages:
    ```bash
-   pip install matplotlib pandas sqlite3 numpy
+   pip install matplotlib pandas sqlite3 numpy aranet4
    ```
 
 3. Setup your SQLite database (`aranet4_data.db`) by running `fetchData.py` with valid MAC addresses.
@@ -65,19 +65,19 @@ The generated plot is saved as `data_plot.png`.
 1. **Fetch Data**:
    Run `fetchData.py` to collect data from the Aranet4 devices, update the database, and export it to CSV:
    ```bash
-   python fetchData.py
+   python3 fetchData.py
    ```
 
 2. **Analyze Data**:
    Use `statsData.py` to analyze data with sliding window differences or distributions:
    ```bash
-   python statsData.py
+   python3 statsData.py
    ```
 
 3. **Visualize Data**:
    Generate time-series plots using `plotData.py`:
    ```bash
-   python plotData.py
+   python3 plotData.py
    ```
 
 ---
