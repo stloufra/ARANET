@@ -91,6 +91,12 @@ The generated plot is saved as `data_plot.png`.
     - Distribution plots (`difference_distribution.png`)
 
 ---
+## Useful links
+{Recomended levels of CO2}(https://pubmed.ncbi.nlm.nih.gov/19043767/)
+
+{Aranet 4 API} (https://github.com/Anrijs/Aranet4-Python)
+
+{User manual, methodics and precision of measurement}(https://aranet.com/en/home/products/aranet4-home)
 
 ## License
 
